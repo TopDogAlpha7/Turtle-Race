@@ -9,7 +9,6 @@ screen.setup(width=500, height=400)
 bet = screen.textinput(title="Make your bet", prompt="Which turtle will win the race?(Red, Orange, Yellow, Green, Blue, Indigo or Violet) Enter a colour: ").lower()
 colours = ["Red", "Orange", "Yellow", "Green", "Blue", "Indigo"]
 y_coordinates = [0, 50, 100, -50, -100, -150]
-speed = [50, 45, 42, 37, 32, 29]
 new_turtles = []
 
 for turtle in range(0, 6):
